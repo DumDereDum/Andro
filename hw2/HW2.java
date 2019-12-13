@@ -14,11 +14,12 @@ public class HW2 {
         String str = in.nextLine();
         String[] words = str.split(" ");
         System.out.println(Arrays.toString(words));
-        int value;
+        Integer value;
         for (int i = 0; i < words.length; i++) {
-            //value = dictionary.get(words[i]);
-            if (dictionary.get(words[i]) != null) {
-                value = dictionary.get(words[i]);
+            value = dictionary.get(words[i]);
+            //if (dictionary.get(words[i]) != null) {
+            if (value != null) {
+                //value = dictionary.get(words[i]);
                 dictionary.put(words[i], value + 1);
             } else {
                 dictionary.put(words[i], 1);
