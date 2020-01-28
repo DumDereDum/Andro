@@ -9,7 +9,7 @@ public class hw1 {
         double y = in.nextInt();
 
         System.out.println("Select the action:");
-        System.out.println("\t1) Multiply\n\t2) Division\n\t3) Multiply\n\t4) Division\n");
+        System.out.println("\t1) Multiply\n\t2) Division\n\t3) Multiply\n\t4) Subtraction\n");
 
         int ans = in.nextInt();
 
